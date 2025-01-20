@@ -61,21 +61,36 @@ The project consists of:
 
 ## How to Use
 
-### Excel Dashboard:
-- Open `Berlin_Sales_Dashboard.xlsx` in Excel.
-- Create pivot tables and charts for insights.
+### Clone the repository:
+```bash
+git clone https://github.com/yourusername/berlin-sales-analysis.git
+```
+
+### Navigate to the folder:
+```bash
+cd berlin-sales-analysis
+```
+
+### Open the Jupyter notebook:
+```bash
+jupyter notebook berlin_sales_python_analysis.ipynb
+```
+
+### Run the notebook:
+- Follow the steps in the notebook to clean and analyze the data.
+- Use `Berlin_Sales_Data.csv` and `Cleaned_Berlin_Sales_Data.csv` as input files.
 
 ### SQL Query Report:
 - Load `Berlin_Sales_Data.csv` into your database.
 - Run the queries in `berlin_sales_sql_report.sql`.
 
-### Python Notebook:
-- Run `berlin_sales_python_analysis.ipynb` in Jupyter Notebook.
-- Follow the steps to clean, analyze, and visualize the data.
+### Excel Dashboard:
+- Open `Berlin_Sales_Dashboard.xlsx` in Excel.
+- Create pivot tables and charts for insights.
 
 ### Tableau/Power BI:
 - Import `Cleaned_Berlin_Sales_Data.csv`.
-- Design interactive dashboards for deeper insights.
+- Design dashboards with insights.
 
 ---
 
@@ -105,3 +120,4 @@ The project consists of:
 
 ## About This Project
 This project was created to practice and showcase my Business Data Analytics skills. It demonstrates my ability to work with multiple tools and analyze data effectively. Feedback is always welcome!
+
